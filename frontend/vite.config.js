@@ -13,7 +13,7 @@ export default defineConfig({
         manualChunks: {
           react: ['react', 'react-dom'],
           router: ['react-router-dom'],
-          utils: ['./src/lib/utils.js', './src/helpers'],
+          utils: ['./src/lib/utils.js'],
         },
       },
     },
